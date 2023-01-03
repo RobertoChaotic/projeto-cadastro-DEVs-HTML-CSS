@@ -36,7 +36,7 @@ input, select, textarea, button {
 }
 
 .campo {
-    margin: 0.5em;
+    margin: 1em;
 }
 
 .campo label {
@@ -47,7 +47,7 @@ input, select, textarea, button {
 
 fieldset.grupo .campo {
     float: left;
-    margin-right: 2em;
+    margin-right: 1em;
     
 }
 
@@ -55,7 +55,7 @@ fieldset.grupo .campo {
     padding: 0.2em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    display: inline-block
+    display: block
 }
 
 .campo select option {
@@ -76,7 +76,7 @@ fieldset.grupo .campo {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top: 75%;
+    top: 90%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -86,6 +86,10 @@ fieldset.grupo .campo {
     background: #ccbbff;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
+}
+
+.botao, select {
+    cursor: pointer;
 }
 
 #check{
